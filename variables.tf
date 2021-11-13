@@ -30,7 +30,7 @@ variable "instances" {
 
 variable "sku" {
   type        = string
-  description = "The Virtual Machine SKU for the Scale Set, such as Standard_F2"
+  description = "The Virtual Machine SKU for the Scale Set, such as Standard_D2_v3"
   default     = "Standard_D2_v3"
 }
 

@@ -17,8 +17,7 @@ resource "azurerm_resource_group" "example" {
 module "linux_vmss" {
   source = "git@github.com:tonyskidmore/terraform-azurerm-vmss-linux.git?ref=v0.0.1"
   name   = "example-vmss"
-}
-````
+}````
 ## Requirements
 
 | Name | Version |
@@ -47,7 +46,7 @@ module "linux_vmss" {
 | <a name="input_name"></a> [name](#input\_name) | The name of the Linux Virtual Machine Scale Set | `string` | `"example-vmss"` | no |
 | <a name="input_network_interface_name"></a> [network\_interface\_name](#input\_network\_interface\_name) | The Network Interface name | `string` | `"example"` | no |
 | <a name="input_resource_group_name"></a> [resource\_group\_name](#input\_resource\_group\_name) | Resource group name where the scale set will be deployed | `string` | `"example"` | no |
-| <a name="input_sku"></a> [sku](#input\_sku) | The Virtual Machine SKU for the Scale Set, such as Standard\_F2 | `string` | `"Standard_D2_v3"` | no |
+| <a name="input_sku"></a> [sku](#input\_sku) | The Virtual Machine SKU for the Scale Set, such as Standard\_D2\_v3 | `string` | `"Standard_D2_v3"` | no |
 ## Outputs
 
 | Name | Description |
