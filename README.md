@@ -50,5 +50,7 @@ module "linux_vmss" {
 | <a name="input_sku"></a> [sku](#input\_sku) | The Virtual Machine SKU for the Scale Set, such as Standard\_F2 | `string` | `"Standard_D2_v3"` | no |
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | The ID of the Linux Virtual Machine Scale Set |
 <!-- END_TF_DOCS -->
