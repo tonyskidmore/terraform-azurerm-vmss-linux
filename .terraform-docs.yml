@@ -6,9 +6,12 @@ sections:
 
 content: |-
   ## Examples
-  ```hcl
+
+  ````hcl
+
   {{ include "examples/basic/main.tf" -}}
-  ```
+
+  ````
   {{ .Requirements }}
   {{ .Providers }}
   {{ .Resources }}
