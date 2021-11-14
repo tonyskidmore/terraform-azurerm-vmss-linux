@@ -2,7 +2,8 @@
 
 Terraform Azure Resource Manager Linux VM Scale Set Module
 
-Listed requirements are the versions tested at time of module creation, earlier versions may still work.
+Listed requirements are the versions tested at time of module creation
+earlier versions may still work.
 
 <!-- BEGIN_TF_DOCS -->
 ## Examples
@@ -17,7 +18,8 @@ resource "azurerm_resource_group" "example" {
 module "linux_vmss" {
   source = "git@github.com:tonyskidmore/terraform-azurerm-vmss-linux.git?ref=v0.0.1"
   name   = "example-vmss"
-}````
+}
+````
 ## Requirements
 
 | Name | Version |
