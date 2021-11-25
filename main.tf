@@ -1,7 +1,7 @@
 resource "azurerm_linux_virtual_machine_scale_set" "example" {
   name                = var.name
   resource_group_name = var.resource_group_name
-  location            = var.location
+  location           = var.location
   sku                 = var.sku
   instances           = var.instances
   admin_username      = var.admin_username
